@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c629f70e-3a96-41d8-9685-59b2033435f4" name="Default Changelist" comment="" />
+    <list default="true" id="c629f70e-3a96-41d8-9685-59b2033435f4" name="Default Changelist" comment="XMLパース実装">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,11 +36,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607764609830</updated>
-      <workItem from="1607764611028" duration="1027000" />
+      <workItem from="1607764611028" duration="1374000" />
+      <workItem from="1607766597069" duration="125000" />
+      <workItem from="1607766724158" duration="1070000" />
     </task>
+    <task id="LOCAL-00001" summary="XMLパース実装">
+      <created>1607765687450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607765687450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="XMLパース実装" />
+    <option name="LAST_COMMIT_MESSAGE" value="XMLパース実装" />
   </component>
 </project>
