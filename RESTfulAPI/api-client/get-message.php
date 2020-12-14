@@ -8,15 +8,10 @@ $params = [
     'food' => '抹茶',
 ];
 
-$opt = [
-    CURLOPT_URL => 'http://localhost:8888/server.php',
-    CURLOPT_CUSTOMREQUEST => 'POST',
-    CURLOPT_POSTFIELDS => $params,
-    CURLOPT_RETURNTRANSFER => true,
-];
+$url = "http://localhost:8888/server.php?" . http_build_query($params);
 
-$handle = curl_init();
-curl_setopt_array($handle, $opt);
+$handle = curl_init($url);
+curl_setopt($handle, CURLOPT_RETURNTRANSFER, true);
 $apiResponse = json_decode(curl_exec($handle), true);
 curl_close($handle);
 

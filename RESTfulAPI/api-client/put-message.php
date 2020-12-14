@@ -1,9 +1,7 @@
 <?php
 
-declare(strict_types=1); ?>
+declare(strict_types=1);
 
-    <body>
-<?php
 $params = [
     'userId' => 1001,
     'userName' => "kona",
@@ -21,7 +19,6 @@ $handle = curl_init();
 curl_setopt_array($handle, $opt);
 $apiResponse = json_decode(curl_exec($handle), true);
 curl_close($handle);
-?>
-    <p>サーバからの応答: </p>
-    <pre><?php print_r($apiResponse) ?></pre>
-    </body><?php
+
+echo "サーバからの応答:\n";
+print_r($apiResponse);
